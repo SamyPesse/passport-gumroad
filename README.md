@@ -1,7 +1,7 @@
 # Passport-Gumroad
 
 [![npm version](https://badge.fury.io/js/passport-gumroad.svg)](http://badge.fury.io/js/passport-gumroad)
-[![Build Status](https://travis-ci.org/GitbookIO/passport-gumroad.svg?branch=master)](https://travis-ci.org/GitbookIO/passport-gumroad)
+[![Build Status](https://travis-ci.org/SamyPesse/passport-gumroad.svg?branch=master)](https://travis-ci.org/SamyPesse/passport-gumroad)
 
 [Passport](http://passportjs.org/) strategy for authenticating with [Gumroad](https://www.gumroad.com/)
 using the OAuth 2.0 API.
