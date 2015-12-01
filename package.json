@@ -1,6 +1,6 @@
 {
     "name": "passport-gumroad",
-    "version": "0.0.0",
+    "version": "1.0.0",
     "description": "Gumroad authentication strategy for Passport.",
     "main": "lib/index.js",
     "author": "Samy Pesse <samypesse@gmail.com>",
