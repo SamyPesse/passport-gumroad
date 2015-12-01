@@ -29,12 +29,12 @@ specifying a client ID, client secret, and callback URL.
 
 ```js
 passport.use(new GumroadStrategy({
-    clientID: GITBOOK_CLIENT_ID,
-    clientSecret: GITBOOK_CLIENT_SECRET,
+    clientID: GUMROAD_CLIENT_ID,
+    clientSecret: GUMROAD_CLIENT_SECRET,
     callbackURL: "http://127.0.0.1:3000/auth/gumroad/callback"
   },
   function(accessToken, refreshToken, profile, done) {
-    User.findOrCreate({ gitbookId: profile.id }, function (err, user) {
+    User.findOrCreate({ gumroadId: profile.id }, function (err, user) {
       return done(err, user);
     });
   }
