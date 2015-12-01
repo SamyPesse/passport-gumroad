@@ -1,0 +1,6 @@
+<% if (!user) { %>
+	<h2>Welcome! Please log in.</h2>
+    <a href="/auth/gumroad">Login with Gumroad</a>
+<% } else { %>
+	<h2>Hello, <%= user.displayName %>.</h2>
+<% } %>

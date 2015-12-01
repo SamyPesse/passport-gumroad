@@ -1,0 +1,26 @@
+{
+    "name": "passport-gumroad",
+    "version": "0.0.0",
+    "description": "Gumroad authentication strategy for Passport.",
+    "main": "lib/index.js",
+    "author": "Samy Pesse <samypesse@gmail.com>",
+    "keywords": ["passport", "oauth", "oauth2", "authentication", "gumroad", "api"],
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/SamyPesse/passport-gumroad.git"
+    },
+    "bugs": {
+        "url": "http://github.com/SamyPesse/passport-gumroad/issues"
+    },
+    "license": "Apache-2.0",
+    "dependencies": {
+        "passport-oauth2": "1.x.x"
+    },
+    "devDependencies": {
+        "mocha": "1.x.x",
+        "chai": "1.x.x"
+    },
+    "scripts": {
+        "test": "node_modules/.bin/mocha --reporter spec --require test/bootstrap/node test/*.test.js"
+    }
+}
